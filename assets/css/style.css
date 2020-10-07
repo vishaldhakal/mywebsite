@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+.toptext{
+    font-family: 'Lobster', cursive !important;
+    letter-spacing: 0.1rem;
+    font-size: 2rem;
+}
+.mycenter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mytext{
+    font-weight: 800;
+    text-align: left;
+    letter-spacing: 0.1rem;
+    color: white;
+}
+.text-justify{
+    text-align: justify;
+}
+.mytext2{
+    color: rgb(226, 226, 226);
+    text-justify: inter-word;
+}
+.btn-mine{
+    font-size: large;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(255, 102, 0) !important;
+}
+.btn-mine:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgba(255, 102, 0, 0.863);
+}
+.btn-mine2{
+    font-size: large;
+    font-weight: bold;
+    background-color: white;
+    color: rgb(255, 102, 0);
+}
+.btn-mine2:hover{
+    background-color: rgb(235, 235, 235);
+    color: rgb(255, 102, 0);
+}
+.header-blue{
+    background: url('../img/banner-bg.svg');
+    background-position: bottom;
+}
+.scroll-change{
+    background-color: white !important;
+    color: black !important;
+}
+.scroll-change .container .collapse ul li a{
+    color: black !important;
+    transition: all 0.1s ease-in-out;
+}
+.scroll-change .container .collapse .nav .nav-item .nav-link:hover{
+    color: rgb(57, 2, 102) !important;
+    font-weight: bold;
+}
+.scroll-change .container .collapse .action-button{
+    border: 1px solid purple;
+    transition: 0.5s all ease-in-out;
+}
+.scroll-change .container .collapse .action-button:hover{
+    transform: scale(1.05);
+}
+.scroll-change .container .toptext:hover{
+    color: purple !important;
+}
+.largee{
+    line-height: 0.1;
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+@media(max-width:700px){
+    .header-blue{
+        background-position: top;
+    }
+    .mytext{
+        font-weight: 600;
+        font-size: 1.5rem;
+    }
+    .parent{
+        display: flex;
+        justify-content: center;
+    }
+}
