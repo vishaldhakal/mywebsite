@@ -1,115 +1,114 @@
-@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
-*{
-    font-family: 'Poppins', sans-serif !important;
+* {
+  font-family: "Poppins", sans-serif !important;
 }
-.toptext{
-    font-family: 'Lobster', cursive !important;
-    letter-spacing: 0.1rem;
+.toptext {
+  font-family: "Lobster", cursive !important;
+  letter-spacing: 0.1rem;
+  font-size: 2rem;
+}
+.mycenter {
+  text-align: justify;
+}
+.mytext {
+  font-weight: 800;
+  text-align: left;
+  font-size: 3.5rem;
+  letter-spacing: 0.1rem;
+  color: white;
+}
+.buttton:active {
+  outline: none !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+.stroke {
+  -webkit-text-fill-color: transparent; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1.5px;
+  -webkit-text-stroke-color: rgb(255, 255, 255);
+}
+.text-justify {
+  text-align: justify;
+}
+.mytext2 {
+  color: rgb(138, 135, 135);
+  text-justify: inter-word;
+  font-weight: normal;
+}
+.btn-mine {
+  font-size: large;
+  font-weight: 500;
+  color: white;
+  background-color: rgb(255, 102, 0) !important;
+}
+.btn-mine:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgba(255, 102, 0, 0.863);
+}
+.btn-mine2 {
+  font-size: large;
+  font-weight: 500;
+  background-color: white;
+  color: rgb(255, 102, 0);
+}
+.btn-mine2:hover {
+  background-color: rgb(235, 235, 235);
+  color: rgb(255, 102, 0);
+}
+.header-blue {
+  background-color: #06072e;
+}
+.scroll-change {
+  background-color: white !important;
+  color: black !important;
+}
+.scroll-change .container .collapse ul li a {
+  color: black !important;
+  transition: all 0.1s ease-in-out;
+}
+.scroll-change .container .collapse .nav .nav-item .nav-link:hover {
+  color: rgb(57, 2, 102) !important;
+  font-weight: bold;
+}
+.scroll-change .container .collapse .action-button {
+  border: 1px solid purple;
+  transition: 0.5s all ease-in-out;
+}
+.scroll-change .container .collapse .action-button:hover {
+  transform: scale(1.05);
+}
+.scroll-change .container .toptext:hover {
+  color: purple !important;
+}
+.largee {
+  line-height: 0.1;
+  font-size: 2.5rem;
+  font-weight: 900;
+}
+.second {
+  margin-top: 80px;
+}
+@media (max-width: 700px) {
+  .header-blue {
+    background-position: top;
+  }
+  .mytext {
+    font-weight: 700;
     font-size: 2rem;
-}
-.mycenter{
-    text-align: justify;
-}
-.mytext{
-    font-weight: 800;
-    text-align: left;
-    font-size: 3.5rem;
-    letter-spacing: 0.1rem;
-    color: white;
-  
-}
-.buttton:active{
-    outline: none !important;
-    border: none !important;
-    box-shadow: none !important;
-}
-.stroke{
-    -webkit-text-fill-color: transparent; /* Will override color (regardless of order) */
-    -webkit-text-stroke-width: 1.5px;
-    -webkit-text-stroke-color: rgb(255, 255, 255);
-}
-.text-justify{
-    text-align: justify;
-}
-.mytext2{
-    color: rgb(138, 135, 135);
-    text-justify: inter-word;
-    font-weight: normal;
-}
-.btn-mine{
-    font-size: large;
-    font-weight: bold;
-    color: white;
-    background-color: rgb(255, 102, 0) !important;
-}
-.btn-mine:hover{
-    color: rgb(255, 255, 255);
-    background-color: rgba(255, 102, 0, 0.863);
-}
-.btn-mine2{
-    font-size: large;
-    font-weight: bold;
-    background-color: white;
-    color: rgb(255, 102, 0);
-}
-.btn-mine2:hover{
-    background-color: rgb(235, 235, 235);
-    color: rgb(255, 102, 0);
-}
-.header-blue{
-    background-color: #06072e;
-}
-.scroll-change{
-    background-color: white !important;
-    color: black !important;
-}
-.scroll-change .container .collapse ul li a{
-    color: black !important;
-    transition: all 0.1s ease-in-out;
-}
-.scroll-change .container .collapse .nav .nav-item .nav-link:hover{
-    color: rgb(57, 2, 102) !important;
-    font-weight: bold;
-}
-.scroll-change .container .collapse .action-button{
-    border: 1px solid purple;
-    transition: 0.5s all ease-in-out;
-}
-.scroll-change .container .collapse .action-button:hover{
-    transform: scale(1.05);
-}
-.scroll-change .container .toptext:hover{
-    color: purple !important;
-}
-.largee{
-    line-height: 0.1;
-    font-size: 2.5rem;
-    font-weight: 900;
-}
-.second{
-    margin-top: 80px;
-}
-@media(max-width:700px){
-    .header-blue{
-        background-position: top;
-    }
-    .mytext{
-        font-weight: 700;
-        font-size: 2rem;
-        text-align: center;
-        margin-bottom: 10px;
-    }
-    .second{
-        text-align: center;
-    }
-    .smal{
-        display: none;
-    }
-    .parent{
-        display: flex;
-        justify-content: center;
-    }
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .second {
+    text-align: center;
+  }
+  .smal {
+    display: none;
+  }
+  .parent {
+    display: flex;
+    justify-content: center;
+  }
 }
